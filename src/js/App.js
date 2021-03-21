@@ -69,6 +69,8 @@ const App = () => {
                 <Tasks taskList={taskList} onCrossClick={onDelete} onTaskClick={onTaskClick} />
                 <AddForm show={showAddForm} onSubmit={onAddFormSubmit} />
             </div>
+
+            {/* <span className="hidden bg-red-500 bg-red-400 bg-gray-500 bg-gray-400"></span> */}
         </div>
     )
 }
